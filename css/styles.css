@@ -220,7 +220,7 @@ h2{
     .title-img{
         margin-top:7%;
         position: static;
-        transform: rotate(0);
+        transform: rotate(10deg);
     }
 
     #title{
