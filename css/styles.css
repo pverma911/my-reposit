@@ -10,23 +10,22 @@ body{
     background-color: #ff4c68;
 }
 
-.h1-title{
+.h1{
     font-size:3.5rem;
     font-family: "Montserrat";
     line-height: 1.5;
 }
 
-
-
 .title-img{
-    padding-top:12%;
-    margin-top:6%;
-    width:54%;
-    transform: rotate(20deg);         /*  To rotate a photo  */
+    width:56%;
+    transform: rotate(25deg);         /*  To rotate a photo  */
+    position: absolute;
+    right:30%;
 }
 
 .container-fluid{
     padding:3% 15%;
+    padding-bottom: 20%;
 }
 
 
@@ -66,6 +65,9 @@ body{
 
 #features{
     padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box{
@@ -107,7 +109,7 @@ body{
     padding:7% 15%;
 }
 
-.testi-h2{
+h2{
     font-family:"Montserrat";
     line-height:1.5;
     font-size: 2.5rem;
@@ -136,3 +138,94 @@ body{
     margin-right: 50px;;
     margin-top:-20px;
 }
+
+
+
+
+/* Price */
+
+.h2-price{
+    font-family:"Montserrat";
+}
+
+.para-price{
+    color:grey;
+    font-family:"lato";
+}
+
+#pricing{
+    padding:100px;
+}
+
+.card{
+    margin-top:8%;
+    text-align:center;
+}
+
+
+
+/* Action Tags */
+
+
+#cta{
+    font-family: "Montserrat";
+    background-color: #ff4c68;
+    color:white;
+    
+    padding:10% 15%;
+    text-align:center;
+}
+
+.act-h3{
+    font-size: 3.5rem;
+    line-height:1.5;
+}
+
+.act{
+    font-family:"Ubuntu";
+    margin-top: 4.2%;
+    font-size:1.5rem;
+    margin-right: 2%;
+}
+
+
+
+/* Footer */
+
+
+#footer{
+    background-color:#fff;
+    padding:6% 15%;
+    text-align:center;
+    margin-top:2%;    
+}
+
+.final-para{
+    font-size:1.2rem;
+    color:lightgray;
+    line-height:2.4;
+    font-family: "Lato";
+}
+
+.i-footy{
+    margin-right:1.2%;
+}
+
+
+
+/* Media queries */
+
+
+@media(max-width:994px){
+    .title-img{
+        margin-top:7%;
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align:center;
+    }
+}
+
+
